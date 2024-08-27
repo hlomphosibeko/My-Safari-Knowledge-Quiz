@@ -88,7 +88,11 @@ h1 {
 #answer-clue {
     letter-spacing: 1.5px;
     color: #d2691e; 
-    font-weight: bold;  
+    font-weight: bold; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 1rem;
+    padding: 5px;
 }
 
 #answer-clue:hover {
