@@ -16,12 +16,48 @@
 </head>
 <body>
     <head>
-        <!-- Logo -->
+    <!-- Logo -->
         <a href="index.html">
             <img id="logo" src="assets/images/logo.jpg" alt="lion's face">
             <h1>Safari Knowledge Quiz</h1>
             <h2 id="get-started">How well do you know your ANIMALS 👍...!</h2>
         </a>
     </head>
+    <!-- Username -->
+    <form class="username" action="https://formdump.codeinstitute.net/"method="POST">
+        <label for="username">Who is playing:</label>
+        <input id="user-name" name="username" type="text submit" onchange="alert('A username is inserted');">
+    </form>
+    <!-- Play ground -->
+    <div class="playground">
+        <div id="question-container"> 
+            <div class="safari-question">
+                <p>What is the name of the below animal?</p>
+            </div>  
+            <div class="safari-quizAnimals">
+                <img src="assets/images/bird.jpg">
+            </div>     
+        </div>
+    </div>
+    <!-- This section will be populated in JavaScript-->
+    <form id="answer-clue">
+        <!-- Radio buttons -->
+    </form>
+    <!-- Scoring -->
+    <button class="btn" data-type="submit">Submit Answer</button>
+
+    <div class="points"> Correct Answers <span id="correct"> 0 </span></div>
+    <div class="points"> Wrong Answers <span id="wrong"> 0 </span></div>
+    <!-- Game over screen -->
+    <div id="gameover">
+        <h3 class="over">GAME OVER!</h3>
+        <p class="gameover-message">Your have 2 wrongs. Your game is over. To play again, click the reload button below!</p>
+    </div>
+    <!-- My reload button -->
+    <div>
+        <button class="hide" id="reload-btn"> Reload Game</button>
+    </div> 
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
