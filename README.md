@@ -53,6 +53,7 @@ The live link can be found here - https://hlomphosibeko.github.io/Safari-Knowled
 ## Credits
 ### Content
 * The JS code used to group the questions, quesion images and answers is taken from [YouTube](https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw)
+* 
 
 
 ### Media
