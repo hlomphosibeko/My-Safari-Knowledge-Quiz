@@ -1,0 +1,22 @@
+/* Asterisk selector set to override browser style*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font Family */
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Body */
+body {
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    color: #d2691e;
+    width: 100vw;
+    height: 100vh;
+}
