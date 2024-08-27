@@ -16,8 +16,24 @@ document.addEventListener("DOMContentLoaded", function() {
     }
         
     
-    function updateAnswerOptions() {
+    function updateAnswerOptions(question) {
+        const answerClue = document.getElementById('answer-clue');
+        answerClue.innerHTML = '';
+        for (let i = 1; i <= 4; i++) {
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'response';
+            input.value = `Answer${i}`;
+            input.id = `answer${i}`;
+            input.dataset.type = question[`Answer${i}`];
 
+            const label = document.createElement('label');
+            label.htmlFor = `answer${i}`;
+            label.textContent = question[`Answer${i}`];
+
+            answerClue.appendChild(input);
+            answerClue.appendChild(label);
+        }
     }
 
 
