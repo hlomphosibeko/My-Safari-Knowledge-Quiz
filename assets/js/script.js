@@ -106,7 +106,7 @@ function myCorrectAnswer(animal) {
 }
 
 //This function will overwrite the html code for radio buttons
-function myOptionsDisplay() {
+function myOptionsDisplay(question) {
     const answerClue = document.getElementById("answer-clue");
     answerClue.innerHTML = "";
     for (let i = 1; i <= 4; i++) {
@@ -120,6 +120,9 @@ function myOptionsDisplay() {
         const label = document.createElement('label');
             label.htmlFor = `answer${i}`;
             label.textContent = question[`Answer${i}`];
+
+            answerClue.appendChild(input);
+            answerClue.appendChild(label);
     }
     
     
