@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 }}
 )
 
+// The gameType and valueKey will be pushed inside this list
 let mylist = []
 
 let mySafariQuestions = [{
@@ -95,6 +96,7 @@ let mySafariQuestions = [{
 }
 ];
 
+// This function will check if the user's answer matches my answwers
 function myCorrectAnswer(animal) {
     for (let obtj of mySafariQuestions) {
         if(obtj['Species'] === animal){
@@ -103,6 +105,7 @@ function myCorrectAnswer(animal) {
          }
 }
 
+//This function will overwrite the html code for radio buttons
 function myOptionsDisplay(x) {
     document.getElementById("answer-clue").innerHTML =
     `<input type="radio" name="response" value="Answer1" id="Answer1">${mySafariQuestions[x]['Answer1']}
@@ -111,6 +114,10 @@ function myOptionsDisplay(x) {
     <input type="radio" name="response" value="Answer4" id="Answer4">${mySafariQuestions[x]['Answer4']}`
 }
 
+/**
+ * This function fetches the object inside the mySafariQuestions list and view it randomly
+ * on the game, the question, and image matching the question and option answers.
+ */
 function startGame() {
     let x = Math.abs(6-Math.floor(Math.random()*10));
     document.getElementsByTagName('p')[0].innerText = mySafariQuestions[x]['safariQuestion']
@@ -123,13 +130,14 @@ function startGame() {
 
 onload = startGame();
 
+//This function checks the radio buttons selcted
 function myUserAnswer() {
-    var radioCollection =document.getElementsByName('response');
+    var radioCollection = document.getElementsByName('response');
 
-    for(i=0;i<radioCollection.length;i++){
+    for (let i=0; i < radioCollection.length; i++) {
 
-        if(radioCollection[i].checked){
-            console.log('user checked',radioCollection[i].value);
+        if (radioCollection[i].checked) {
+            console.log('user checked', radioCollection[i].value);
             return radioCollection[i].value
         }
     }
@@ -138,14 +146,17 @@ function myUserAnswer() {
 let correctCounter = 0
 let wrongCounter = 0
 
+//This function increases the correct scoring of the user
 function myCorrectIncrement() {
     return ++correctCounter;
 }
 
+//This function increases the incorrect scoring for the user
 function myWrongIncrement() {
     return ++wrongCounter;
 }
 
+//This function checks if the user answer and my answers are the same 
 function myCheckAnswer(gt, uc) {
     let calculatedAnswer = myCorrectAnswer(gt)
 
