@@ -113,6 +113,8 @@ function startGame() {
     document.getElementsByClassName("safari-quizAnimals")[0].innerHTML = mySafariQuestions[x]['safariQuizAnimals']
 
     myOptionsDisplay(x);
+    mylist.push(x);
+    console.log('we are playing the object number',mylist[0])
 }
 
 onload = startGame();
@@ -129,6 +131,8 @@ function myUserAnswer() {
     }
 }
 
+let correctCounter = 0
+let wrongCounter = 0
 
 function myCorrectIncrement() {
     return ++correctCounter;
