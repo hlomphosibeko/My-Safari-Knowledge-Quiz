@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
 }}
 )
 
+let mylist = []
+
 let mySafariQuestions = [{
     safariQuestion: "What is the name of the below animal?",
     safariQuizAnimals: '<img src="assets/images/bird.jpg">',
