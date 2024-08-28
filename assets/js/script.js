@@ -3,9 +3,14 @@
  * An eventlistener will listen for the radio buttons to be clicked.
  */
 document.addEventListener("DOMContentLoaded", function() {
+    let currentQuestionIndex = 0;
+    let correctCounter = 0;
+    let wrongCounter = 0;
+
+    
     
 //This function will overwrite the html code for radio buttons
-function myOptionsDisplay(question) {
+    function myOptionsDisplay(question) {
     const answerClue = document.getElementById("answer-clue");
     answerClue.innerHTML = "";
     for (let i = 1; i <= 4; i++) {
@@ -31,7 +36,7 @@ document.getElementById('answer-clue').addEventListener('change', function(event
         const correctAnswer = mySafariQuestions[currentQuestionIndex].correctAnswer;
         checkAnswer(userChoice, correctAnswer);
     }
-});
+    });
 
     
     })
