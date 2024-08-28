@@ -88,8 +88,12 @@ let mySafariQuestions = [{
 }
 ];
 
-function myCorrectAnswer() {
-
+function myCorrectAnswer(animal) {
+    for (let obtj of mySafariQuestions) {
+        if(obtj['Species'] === animal){
+         return obtj['correctAnswer']
+        }
+         }
 }
 
 function myOptionsDisplay() {
@@ -113,5 +117,5 @@ function myWrongIncrement() {
 }
 
 function myCheckAnswer() {
-    
+
 }
