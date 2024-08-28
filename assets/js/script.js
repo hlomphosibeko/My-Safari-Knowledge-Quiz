@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             answerClue.appendChild(label);
     }
 }
-
+//This eventlistener will listen when the radio button is clicked.
 document.getElementById('answer-clue').addEventListener('change', function(event) {
     if (event.target.type === 'radio') {
         const userChoice = event.target.dataset.type;
@@ -61,6 +61,7 @@ document.getElementById('answer-clue').addEventListener('change', function(event
         startGame();
     }  
     
+    //This function will execute when all questions have been answered.
     function endGame() {
         document.getElementById('question-container').style.display = 'none';
         document.getElementById('answer-clue').style.display = 'none';
@@ -76,7 +77,7 @@ document.getElementById('answer-clue').addEventListener('change', function(event
  * An array of objects consisting of keys and values of questions, animal images
  * and answers to the questions.
  */
-let mySafariQuestions = [{
+const mySafariQuestions = [{
     safariQuestion: "What is the name of the below animal?",
     safariQuizAnimals: '<img src="assets/images/bird.jpg">',
     Answer1: "bird",
@@ -148,47 +149,3 @@ let mySafariQuestions = [{
 }
 ];
 
-// This function will check if the user's answer matches my answwers
-function myCorrectAnswer(animal) {
-    for (let obtj of mySafariQuestions) {
-        if(obtj['Species'] === animal){
-         return obtj['correctAnswer']
-        }
-         }
-}
-
-/**
- * This function fetches the object inside the mySafariQuestions list and view it randomly
- * on the game, the question, and image matching the question and option answers.
- */
-
-
-onload = startGame();
-
-//This function checks the radio buttons selcted
-function myUserAnswer() {
-    var radioCollection = document.getElementsByName('response');
-
-    for (let i=0; i < radioCollection.length; i++) {
-
-        if (radioCollection[i].checked) {
-            console.log('user checked', radioCollection[i].value);
-            return radioCollection[i].value
-        }
-    }
-}
-
-let correctCounter = 0
-let wrongCounter = 0
-
-//This function increases the correct scoring of the user
-function myCorrectIncrement() {
-    return ++correctCounter;
-}
-
-//This function increases the incorrect scoring for the user
-function myWrongIncrement() {
-    return ++wrongCounter;
-}
-
-//This function checks if the user answer and my answers are the same 
