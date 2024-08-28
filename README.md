@@ -39,10 +39,25 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 ### Manual Testing
 
 #### My Playground
+* I wanted to add  keyboard to the game. My mentor advised that I remove it as all devices already have a keyboard. Please see below image:
+
+![alt text](image.png)
+
 * The game is not looping
-* When selecting the right answer, the alert for the incorrect answer pops up
+* When selecting the right answer, the alert for the incorrect answer pops up. Please see image below:
+
+![alt text](image.png)
+
 * Some images are too big for the playground, they are overlapping.
 
+![alt text](image-1.png)
+
+### Validator Testing
+
+*HTML
+##### Errors
+    - 
+    ![alt text](image-2.png)
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
