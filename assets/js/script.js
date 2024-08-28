@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const currentQuestion = mySafariQuestions[currentQuestionIndex];
             document.querySelector('.safari-question p').textContent = currentQuestion.safariQuestion;
             document.querySelector('.safari-quizAnimals').innerHTML = currentQuestion.safariQuizAnimals;
-            updateAnswerOptions(currentQuestion);
+            myOptionsDisplay(currentQuestion);
         } else {
             endGame();
         }
@@ -140,15 +140,7 @@ function myCorrectAnswer(animal) {
  * This function fetches the object inside the mySafariQuestions list and view it randomly
  * on the game, the question, and image matching the question and option answers.
  */
-function startGame() {
-    let x = Math.abs(6-Math.floor(Math.random()*10));
-    document.getElementsByTagName('p')[0].innerText = mySafariQuestions[x]['safariQuestion']
-    document.getElementsByClassName("safari-quizAnimals")[0].innerHTML = mySafariQuestions[x]['safariQuizAnimals']
 
-    myOptionsDisplay(x);
-    mylist.push(x);
-    console.log('we are playing the object number',mylist[0])
-}
 
 onload = startGame();
 
