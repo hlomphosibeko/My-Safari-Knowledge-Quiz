@@ -87,3 +87,31 @@ let mySafariQuestions = [{
     Species:"tiger",
 }
 ];
+
+function myCorrectAnswer() {
+
+}
+
+function myOptionsDisplay() {
+
+}
+
+function startGame() {
+
+}
+
+function myUserAnswer() {
+
+}
+
+function myCorrectIncrement() {
+
+}
+
+function myWrongIncrement() {
+
+}
+
+function myCheckAnswer() {
+    
+}
