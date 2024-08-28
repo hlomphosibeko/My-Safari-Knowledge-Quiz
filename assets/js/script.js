@@ -109,6 +109,14 @@ function myCorrectAnswer(animal) {
 function myOptionsDisplay() {
     const answerClue = document.getElementById("answer-clue");
     answerClue.innerHTML = "";
+    for (let i = 1; i <= 4; i++) {
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'response';
+        input.value = `Answer${i}`;
+        input.id = `answer${i}`;
+        input.dataset.type = question[`Answer${i}`];
+    }
     
     
     /*`<input type="radio" name="response" value="Answer1" id="Answer1">${mySafariQuestions[x]['Answer1']}
