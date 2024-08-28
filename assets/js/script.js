@@ -7,7 +7,16 @@ document.addEventListener("DOMContentLoaded", function() {
     let correctCounter = 0;
     let wrongCounter = 0;
 
-    
+    function startGame() {
+        if (currentQuestionIndex < mySafariQuestions.length) {
+            const currentQuestion = mySafariQuestions[currentQuestionIndex];
+            document.querySelector('.safari-question p').textContent = currentQuestion.safariQuestion;
+            document.querySelector('.safari-quizAnimals').innerHTML = currentQuestion.safariQuizAnimals;
+            updateAnswerOptions(currentQuestion);
+        } else {
+            endGame();
+        }
+    }
     
 //This function will overwrite the html code for radio buttons
     function myOptionsDisplay(question) {
