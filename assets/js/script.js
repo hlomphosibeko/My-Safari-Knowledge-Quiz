@@ -79,6 +79,8 @@ document.getElementById('answer-clue').addEventListener('change', function(event
     document.getElementById('reload-btn').addEventListener('click', function() {
         location.reload();
     })
+
+    document.g
     startGame();
 });
 

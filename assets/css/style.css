@@ -127,14 +127,14 @@ h1 {
 
 /* When game is over, the screen will apply the below style */
 #gameover {
-    opacity: 0%;
-    position: absolute;
+    display: none;
     margin: 190px 0 0 20px;
     font: 18px;
     font-weight: bold;
     color: white;
     z-index: 1;
     transition-duration: 0.3s;
+    background-color: black;
 }
 
 .over {
@@ -142,13 +142,13 @@ h1 {
 }
 
 .gameover-message {
-    color: white;
+    color: black;
     padding: 10%;
 }
 
 /* When game is over, reload button will be clicked */
 #reload-btn {
-    display: hide;
+    display: none;
     background-color: greenyellow;
     color: #d2691e;
     border-radius: 15px;
