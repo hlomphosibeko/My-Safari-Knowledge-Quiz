@@ -61,7 +61,7 @@ document.getElementById('answer-clue').addEventListener('change', function(event
         startGame();
     }   
 
-    
+    startGame();
 });
 
 
