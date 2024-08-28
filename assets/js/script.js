@@ -115,6 +115,8 @@ function startGame() {
     myOptionsDisplay(x);
 }
 
+onload = startGame();
+
 function myUserAnswer() {
     var radioCollection =document.getElementsByName('response');
 
