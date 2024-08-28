@@ -17,8 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
             endGame();
         }
     }
-    
-//This function will overwrite the html code for radio buttons
+
+/**
+ * This function will overwrite the html code for radio buttons
+ */
     function myOptionsDisplay(question) {
     const answerClue = document.getElementById("answer-clue");
     answerClue.innerHTML = "";
@@ -47,7 +49,9 @@ document.getElementById('answer-clue').addEventListener('change', function(event
     }
     });
 
-    //This function checks if the user answer and my answers are the same 
+/**
+ * This function checks if the user answer and my answers are the same 
+ */
     function checkAnswer(userChoice, correctAnswer) {
         if (userChoice === correctAnswer) {
             alert("Well done, you know your animals!");
@@ -61,7 +65,9 @@ document.getElementById('answer-clue').addEventListener('change', function(event
         startGame();
     }  
     
-    //This function will execute when all questions have been answered.
+    /**
+     * This function will execute when all questions have been answered.
+     */
     function endGame() {
         document.getElementById('question-container').style.display = 'none';
         document.getElementById('answer-clue').style.display = 'none';
