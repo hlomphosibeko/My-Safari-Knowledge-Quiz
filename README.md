@@ -36,7 +36,12 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 * Add more questions and animal images to the game to make it more interesting.
 
 ## Testing
+### Manual Testing
 
+#### My Playground
+* The game is not looping
+* When selecting the right answer, the alert for the incorrect answer pops up
+* Some images are too big for the playground, they are overlapping.
 
 
 ## Deployment
