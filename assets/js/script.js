@@ -96,8 +96,12 @@ function myCorrectAnswer(animal) {
          }
 }
 
-function myOptionsDisplay() {
-
+function myOptionsDisplay(x) {
+    document.getElementById("answer-clue").innerHTML =
+    `<input type="radio" name="response" value="Answer1" id="Answer1">${mySafariQuestions[x]['Answer1']}
+    <input type="radio" name="response" value="Answer2" id="Answer2">${mySafariQuestions[x]['Answer2']}
+    <input type="radio" name="response" value="Answer3" id="Answer3">${mySafariQuestions[x]['Answer3']}
+    <input type="radio" name="response" value="Answer4" id="Answer4">${mySafariQuestions[x]['Answer4']}`
 }
 
 function startGame() {
