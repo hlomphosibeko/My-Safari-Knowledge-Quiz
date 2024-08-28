@@ -47,8 +47,22 @@ document.getElementById('answer-clue').addEventListener('change', function(event
     }
     });
 
+    //This function checks if the user answer and my answers are the same 
+    function checkAnswer(userChoice, correctAnswer) {
+        if (userChoice === correctAnswer) {
+            alert("Well done, you know your animals!");
+            document.getElementById("correct").textContent = ++correctCounter;
+        } else {
+            alert(`Oops! You chose ${userChoice} which is not correct, the correct answer is ${correctAnswer}`);
+            document.getElementById("wrong").textContent = ++wrongCounter;
+        }
+
+        currentQuestionIndex++;
+        startGame();
+    }   
+
     
-    })
+});
 
 
 
@@ -171,15 +185,3 @@ function myWrongIncrement() {
 }
 
 //This function checks if the user answer and my answers are the same 
-function myCheckAnswer(gt, uc) {
-    let calculatedAnswer = myCorrectAnswer(gt)
-
-    if (gt === uc) {
-    alert("Well done, you know your animals!")
-    document.getElementById("correct").innerHTML = myCorrectIncrement()
-    } 
-    else {
-     alert(`Oops! You chose ${uc} which is incorrect. The correct answer is ${calculatedAnswer}`)
-     document.getElementById("wrong").innerHTML = myWrongIncrement()
-    }
-}
