@@ -148,6 +148,7 @@ h1 {
 
 /* When game is over, reload button will be clicked */
 #reload-btn {
+    display: hide;
     background-color: greenyellow;
     color: #d2691e;
     border-radius: 15px;
