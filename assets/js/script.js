@@ -113,15 +113,24 @@ function startGame() {
 }
 
 function myUserAnswer() {
+    var radioCollection =document.getElementsByName('response');
 
+    for(i=0;i<radioCollection.length;i++){
+
+        if(radioCollection[i].checked){
+            console.log('user checked',radioCollection[i].value);
+            return radioCollection[i].value
+        }
+    }
 }
 
-function myCorrectIncrement() {
 
+function myCorrectIncrement() {
+    return ++correctCounter;
 }
 
 function myWrongIncrement() {
-
+    return ++wrongCounter;
 }
 
 function myCheckAnswer() {
