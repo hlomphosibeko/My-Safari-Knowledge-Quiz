@@ -4,6 +4,27 @@
  */
 document.addEventListener("DOMContentLoaded", function() {
     
+//This function will overwrite the html code for radio buttons
+function myOptionsDisplay(question) {
+    const answerClue = document.getElementById("answer-clue");
+    answerClue.innerHTML = "";
+    for (let i = 1; i <= 4; i++) {
+        const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'response';
+            input.value = `Answer${i}`;
+            input.id = `answer${i}`;
+            input.dataset.type = question[`Answer${i}`];
+
+        const label = document.createElement('label');
+            label.htmlFor = `answer${i}`;
+            label.textContent = question[`Answer${i}`];
+
+            answerClue.appendChild(input);
+            answerClue.appendChild(label);
+    }
+}
+
     let radios = document.querySelectorAll("input[type=radio]");
 
     for (let btn of radios) {
@@ -124,12 +145,6 @@ function myOptionsDisplay(question) {
             answerClue.appendChild(input);
             answerClue.appendChild(label);
     }
-    
-    
-    /*`<input type="radio" name="response" value="Answer1" id="Answer1">${mySafariQuestions[x]['Answer1']}
-    <input type="radio" name="response" value="Answer2" id="Answer2">${mySafariQuestions[x]['Answer2']}
-    <input type="radio" name="response" value="Answer3" id="Answer3">${mySafariQuestions[x]['Answer3']}
-    <input type="radio" name="response" value="Answer4" id="Answer4">${mySafariQuestions[x]['Answer4']}`*/
 }
 
 /**
