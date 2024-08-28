@@ -133,6 +133,15 @@ function myWrongIncrement() {
     return ++wrongCounter;
 }
 
-function myCheckAnswer() {
+function myCheckAnswer(gt, uc) {
+    let calculatedAnswer = myCorrectAnswer(gt)
 
+    if (gt === uc) {
+    alert("Well done, you know your animals!")
+    document.getElementById("correct").innerHTML = myCorrectIncrement()
+    } 
+    else {
+     alert(`Oops! You chose ${uc} which is incorrect. The correct answer is ${calculatedAnswer}`)
+     document.getElementById("wrong").innerHTML = myWrongIncrement()
+    }
 }
