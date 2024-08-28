@@ -105,6 +105,7 @@ function myOptionsDisplay(x) {
 }
 
 function startGame() {
+    let x = Math.abs(6-Math.floor(Math.random()*10));
 
 }
 
