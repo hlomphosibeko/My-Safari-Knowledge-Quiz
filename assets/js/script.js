@@ -59,16 +59,23 @@ document.getElementById('answer-clue').addEventListener('change', function(event
 
         currentQuestionIndex++;
         startGame();
-    }   
+    }  
+    
+    function endGame() {
+        document.getElementById('question-container').style.display = 'none';
+        document.getElementById('answer-clue').style.display = 'none';
+        document.getElementById('gameover').style.display = 'block';
+        document.getElementById('reload-btn').style.display = 'block';
+        document.querySelector('.gameover-message').textContent = `You got ${correctCounter} correct and ${wrongCounter} wrong.`;
+    }
 
     startGame();
 });
 
-
-
-// The gameType and valueKey will be pushed inside this list
-let mylist = []
-
+/**
+ * An array of objects consisting of keys and values of questions, animal images
+ * and answers to the questions.
+ */
 let mySafariQuestions = [{
     safariQuestion: "What is the name of the below animal?",
     safariQuizAnimals: '<img src="assets/images/bird.jpg">',
