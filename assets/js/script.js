@@ -106,7 +106,10 @@ function myOptionsDisplay(x) {
 
 function startGame() {
     let x = Math.abs(6-Math.floor(Math.random()*10));
+    document.getElementsByTagName('p')[0].innerText = mySafariQuestions[x]['safariQuestion']
+    document.getElementsByClassName("safari-quizAnimals")[0].innerHTML = mySafariQuestions[x]['safariQuizAnimals']
 
+    myOptionsDisplay(x);
 }
 
 function myUserAnswer() {
