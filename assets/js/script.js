@@ -25,6 +25,14 @@ function myOptionsDisplay(question) {
     }
 }
 
+document.getElementById('answer-clue').addEventListener('change', function(event) {
+    if (event.target.type === 'radio') {
+        const userChoice = event.target.dataset.type;
+        const correctAnswer = mySafariQuestions[currentQuestionIndex].correctAnswer;
+        checkAnswer(userChoice, correctAnswer);
+    }
+});
+
     let radios = document.querySelectorAll("input[type=radio]");
 
     for (let btn of radios) {
@@ -124,27 +132,6 @@ function myCorrectAnswer(animal) {
          return obtj['correctAnswer']
         }
          }
-}
-
-//This function will overwrite the html code for radio buttons
-function myOptionsDisplay(question) {
-    const answerClue = document.getElementById("answer-clue");
-    answerClue.innerHTML = "";
-    for (let i = 1; i <= 4; i++) {
-        const input = document.createElement('input');
-            input.type = 'radio';
-            input.name = 'response';
-            input.value = `Answer${i}`;
-            input.id = `answer${i}`;
-            input.dataset.type = question[`Answer${i}`];
-
-        const label = document.createElement('label');
-            label.htmlFor = `answer${i}`;
-            label.textContent = question[`Answer${i}`];
-
-            answerClue.appendChild(input);
-            answerClue.appendChild(label);
-    }
 }
 
 /**
