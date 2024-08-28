@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log('The game type is',gameType);
         console.log(`Users choice is',${mySafariQuestions[mylist[0]][valueKey]}`);
         userchoice=mySafariQuestions[mylist[0]][valueKey];
-             
+        
+        myCheckAnswer(gameType,userchoice)
     })
 }}
 )
