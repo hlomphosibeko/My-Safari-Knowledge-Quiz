@@ -1,3 +1,7 @@
+/**
+ * When the DOMContent is loaded, it will trigger a function.
+ * An eventlistener will listen for the radio buttons to be clicked.
+ */
 document.addEventListener("DOMContentLoaded", function() {
     
     let radios = document.querySelectorAll("input[type=radio]");
