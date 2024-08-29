@@ -16,6 +16,7 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 ### Playground
 - The playground shows a question and an image.
 - A question and image would appear on the playground when game is running.
+- I used a white background so the animal images can pop.
 - The image's role here is to help the player know which animal is being referred to. Please see below image:
 
 ![Playground](README.md%20docs/playground-screen.png)
@@ -49,24 +50,7 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 ## Testing
 ### Manual Testing
 
-#### Playground Background
-* The game had a background which had animals.
-* The background image was making it difficult to position animals that are part of the questions. Please see image below:
-
-![Old background](README.md%20docs/old-background.png)
-
-* I removed the background image for better user experience. Please see below screen:
-
-![Playground](README.md%20docs/playground-screen.png)
-
 #### My Playground
-<!-- The keyboard situation -->
-* I wanted to add  keyboard to the game. My mentor advised that I remove it as all devices already have a keyboard.
-* The keyboard could not appear horizontally. Please see below image:
-
-![Keyboard](README.md%20docs/keyboard-screen.png)
-
-* After careful consideration, I removed the keyboard.
 
 <!-- Game not looping -->
 * The game is not looping
@@ -80,10 +64,14 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 
 ### Validator Testing
 
-*HTML
-##### Errors
+##### HTML
+* Errors
     - 
     ![HTML error messages](README.md%20docs/html-error1.png)
+
+    ![alt text](image.png)
+
+
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
