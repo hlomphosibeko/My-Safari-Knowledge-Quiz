@@ -83,6 +83,8 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
    ![Lighthouse result](README.md%20docs/lighthouse-result-1.png)
 
+   ![Lighthouse Result](README.md%20docs/lighthouse-2.png)
+
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
     - In the GitHub repository, navigate to the Settings tab
