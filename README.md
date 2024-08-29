@@ -1,6 +1,6 @@
 # My-Safari-Knowledge-Quiz
 
-Animals can entertain people in so many ways. We got the zoo to see them, we read about them on the internet or books to learn more about them. Now would you say you know your animals? Safari Knowledge Quiz is created to test how well children, under the age of 5, know their animals. This game hopes to entertain children when they want to know more about their animals. 
+When I think of animals, I think of a Safari or Outback. Animals can entertain people in so many ways. We got the zoo to see them, we read about them on the internet or books to learn more about them. Now would you say you know your animals? Safari Knowledge Quiz is created to test how well children, under the age of 5, know their animals. This game hopes to entertain children when they want to know more about their animals. 
 
 ![Responsive screens](README.md%20docs/amiresponsive-screens.png)
 
@@ -48,28 +48,19 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 * Make the username visible when the user is playing again.
 
 ## Testing
-### Manual Testing
-
-#### My Playground
-
-<!-- Game not looping -->
-* The game is not looping
-* When selecting the right answer, the alert for the incorrect answer pops up. Please see image below:
-
-![alt text](image.png)
-
-* Some images are too big for the playground, they are overlapping.
-
-![Overlapping image](README.md%20docs/overlapping-image-screen.png)
 
 ### Validator Testing
 
 ##### HTML
 * Errors
-    - 
-    ![HTML error messages](README.md%20docs/html-error1.png)
 
-    ![alt text](image.png)
+    - Four errors were found on HTML.
+    - 1. I did not include spaces between attributes. 
+      2. Inside the username input element, I put two types of values in one input element.
+      3. I did not add the alt attribute inside the img element.
+      4. The value of the for attribute should be the same as the ID of the input element. Please see image below:
+
+    ![HTML error messages](README.md%20docs/html-errors.png)
 
 
 
