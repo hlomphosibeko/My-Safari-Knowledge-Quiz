@@ -109,21 +109,6 @@ h1 {
     cursor: pointer;
 }
 
-/* The submit button */
-.btn {
-    background-color: #d2691e;
-    color: beige;
-    font-family: inherit;
-    width: 30%;
-    border-radius: 15px;
-    font-weight: bold;
-    margin-top: 5%;
-}
-.btn:hover {
-    background-color: white;
-    color: #d2691e;
-    cursor: pointer;
-}
 
 /* Score area */
 #correct {
