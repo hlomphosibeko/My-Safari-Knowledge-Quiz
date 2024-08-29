@@ -49,6 +49,16 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 ## Testing
 ### Manual Testing
 
+#### Playground Background
+* The game had a background which had animals.
+* The background image was making it difficult to position animals that are part of the questions. Please see image below:
+
+![Old background](README.md%20docs/old-background.png)
+
+* I removed the background image for better user experience. Please see below screen:
+
+![Playground](README.md%20docs/playground-screen.png)
+
 #### My Playground
 <!-- The keyboard situation -->
 * I wanted to add  keyboard to the game. My mentor advised that I remove it as all devices already have a keyboard.
@@ -66,14 +76,14 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 
 * Some images are too big for the playground, they are overlapping.
 
-![alt text](image-1.png)
+![Overlapping image](README.md%20docs/overlapping-image-screen.png)
 
 ### Validator Testing
 
 *HTML
 ##### Errors
     - 
-    ![alt text](image-2.png)
+    ![HTML error messages](README.md%20docs/html-error1.png)
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
