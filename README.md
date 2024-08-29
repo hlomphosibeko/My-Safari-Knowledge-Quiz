@@ -75,6 +75,14 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
    ![JavaScript warnings](README.md%20docs/js-warnings.png)    
 
+##### Lighthouse
+
+   - My Safari Knowledge Quiz could not pass all lighthouse results
+   - Looks like images are large
+   - If the size of the images is reduced, they are going to be too small. Please see image below:
+
+   ![Lighthouse result](README.md%20docs/lighthouse-result-1.png)
+
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
     - In the GitHub repository, navigate to the Settings tab
