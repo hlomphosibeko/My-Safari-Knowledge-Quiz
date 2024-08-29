@@ -59,11 +59,19 @@ h1 {
 
 /* The question container viewing the question and the image */
 #question-container {
-    margin: 5% 5%;
     border-style: ridge;
     border-color: #d2691e;
     box-shadow: 0 0 10px 2px;
+    box-sizing: border-box;
     width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    display: none;
+    
 }
 
 .safari-question {
@@ -73,6 +81,9 @@ h1 {
     text-align: center;
     padding: 5% 0;
     font-size: 1.5em;
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
 }
 
 .safari-quizAnimals {
@@ -81,6 +92,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    margin: auto;
 }
 
 /* The radio buttons section */
@@ -88,7 +100,8 @@ h1 {
     letter-spacing: 1.5px;
     color: #d2691e; 
     font-weight: bold; 
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #answer-clue:hover {
