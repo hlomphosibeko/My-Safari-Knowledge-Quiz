@@ -34,12 +34,17 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 
 ![alt text](image-8.png)
 
-### Reload Button
-- The reload button works as a refresh button.
-- Once a level has been completed, then the reload button will be clicked to get the next game.
+### Game Over and Reload Button
+- When a user has reached the end of the game, a GAME OVER screen will appear.
+- This screen will also show the player's score.
+- The reload button appears same time with the GAME OVER screen.
+- Once a level has been completed, then the reload button will be clicked to restart the game.
+
+![alt text](image-9.png)
 
 ### Features Left to implement
 * Add more questions and animal images to the game to make it more interesting.
+* Make the username visible when the user is playing again.
 
 ## Testing
 ### Manual Testing
