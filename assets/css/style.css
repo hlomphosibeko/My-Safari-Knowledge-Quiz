@@ -24,7 +24,7 @@ body {
 /* Header */
 #logo {
     border-radius: 40%;
-    margin-top: 10%
+    margin-top: 5%
 }
 
 a {
@@ -59,12 +59,11 @@ h1 {
 
 /* The question container viewing the question and the image */
 #question-container {
-    margin: 5% 10%;
+    margin: 5% 5%;
     border-style: ridge;
     border-color: #d2691e;
     box-shadow: 0 0 10px 2px;
     width: 85%;
-    height: 40vh;
 }
 
 .safari-question {
@@ -128,7 +127,7 @@ h1 {
 /* When game is over, the screen will apply the below style */
 #gameover {
     display: none;
-    margin: 5% 10%;
+    margin: 5% 5%;
     border-style: ridge;
     border-color: #d2691e;
     box-shadow: 0 0 10px 2px;
@@ -142,11 +141,13 @@ h1 {
     display: flex;
     justify-content: center;
     padding-top: 20%; 
+    font-size: 3rem;
 }
 
 .gameover-message {
     color: white;
     padding: 10%;
+    font-size: 2rem;
 }
 
 /* When game is over, reload button will be clicked */
