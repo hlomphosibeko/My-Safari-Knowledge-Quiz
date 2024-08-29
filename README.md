@@ -62,7 +62,18 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
     ![HTML error messages](README.md%20docs/html-errors.png)
 
+    - After carefully reviewing the HTML code, there appears to be no more errors. Please see screenprint below:
 
+    ![Error free HTML code](README.md%20docs/html-error-free.png)
+
+##### CSS
+   - There appears to be no errors with CSS code. Please see below screen print:
+    ![CSS without errors](README.md%20docs/css-no-errors.png)
+
+##### JavaScript
+   - No errors were detected on the JavaScript code, only warnings. Please see below screenprints:
+
+   ![JavaScript warnings](README.md%20docs/js-warnings.png)    
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
