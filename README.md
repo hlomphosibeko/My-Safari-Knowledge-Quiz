@@ -2,7 +2,7 @@
 
 Animals can entertain people in so many ways. We got the zoo to see them, we read about them on the internet or books to learn more about them. Now would you say you know your animals? Safari Knowledge Quiz is created to test how well children, under the age of 5, know their animals. This game hopes to entertain children when they want to know more about their animals. 
 
-![alt text](image-3.png)
+![Responsive screens](README.md%20docs/amiresponsive-screens.png)
 
 ## Features 
 
@@ -11,20 +11,20 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 - A player is however not required to have their name inserted.
 - Once a name is inserted, a pop up will apear alerting the user to start playing the game. Please see image below:
 
-![alt text](image-5.png)
+![Username](README.md%20docs/username-alert.png)
 
 ### Playground
 - The playground shows a question and an image.
 - A question and image would appear on the playground when game is running.
 - The image's role here is to help the player know which animal is being referred to. Please see below image:
 
-![alt text](image-6.png)
+![Playground](README.md%20docs/playground-screen.png)
 
 ### Answer Options Area
 - This feature is used to restrict a player from giving answers which are not in the game. Some questions have a number of ways to answer, so with the given options, a player will be limited.
 - It consists of radio buttons where a player will select the correct answer to win the game. Please see below image:
 
-![alt text](image-7.png)
+![Answer options](README.md%20docs/answer-options.png)
 
 ### Score Area
 - Once the player has has submitted their answer, this feature will then show if the answer is correct or not.
@@ -32,7 +32,7 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 - The wrong answer number will also increase everytime a player is wrong.
 - At the end of the game, a player will then see how they did. Please see image below:
 
-![alt text](image-8.png)
+![score area](README.md%20docs/score-section.png)
 
 ### Game Over and Reload Button
 - When a user has reached the end of the game, a GAME OVER screen will appear.
@@ -40,7 +40,7 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 - The reload button appears same time with the GAME OVER screen.
 - Once a level has been completed, then the reload button will be clicked to restart the game.
 
-![alt text](image-9.png)
+![Game over / Reload](README.md%20docs/gameover-reload-screen.png)
 
 ### Features Left to implement
 * Add more questions and animal images to the game to make it more interesting.
@@ -50,10 +50,15 @@ Animals can entertain people in so many ways. We got the zoo to see them, we rea
 ### Manual Testing
 
 #### My Playground
-* I wanted to add  keyboard to the game. My mentor advised that I remove it as all devices already have a keyboard. Please see below image:
+<!-- The keyboard situation -->
+* I wanted to add  keyboard to the game. My mentor advised that I remove it as all devices already have a keyboard.
+* The keyboard could not appear horizontally. Please see below image:
 
-![alt text](image.png)
+![Keyboard](README.md%20docs/keyboard-screen.png)
 
+* After careful consideration, I removed the keyboard.
+
+<!-- Game not looping -->
 * The game is not looping
 * When selecting the right answer, the alert for the incorrect answer pops up. Please see image below:
 
