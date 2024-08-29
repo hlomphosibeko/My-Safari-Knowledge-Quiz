@@ -141,12 +141,17 @@ h1 {
 /* When game is over, the screen will apply the below style */
 #gameover {
     display: none;
-    margin: 5% 5%;
     border-style: ridge;
     border-color: #d2691e;
     box-shadow: 0 0 10px 2px;
+    box-sizing: border-box;
     width: 85%;
-    height: 40vh;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
     background-color: black;
 }
 
