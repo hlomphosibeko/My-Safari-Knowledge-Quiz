@@ -43,10 +43,10 @@ h1 {
 
 /* Main Content */
 /* My username section */
-#user-name {
+#username {
     border-radius: 15px;
     border: 2px solid chocolate;
-    background-color: chocolate;
+    background-color: rgb(247, 182, 135);
     color: white;
     box-shadow: 0 0 10px 2px;
     text-align: center;
@@ -170,4 +170,10 @@ h1 {
     cursor: pointer;
     background-color: #d2691e;
     color: white ;    
+}
+
+@media (max-width: 320px) {
+    #question-container {
+        height: 70vh;
+    }
 }

@@ -151,13 +151,13 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "How does this animal move?",
-    safariQuizAnimals: '<img src="assets/images/tiger.jpg">',
+    safariQuizAnimals: '<img src="assets/images/giraffe.jpg">',
     Answer1: "it walks",
     Answer2: "it hops",
     Answer3: "it swims",
     Answer4: "it crawls",
     correctAnswer: "it walks",
-    Species:"tiger",
+    Species:"giraffe",
 }
 ];
 
