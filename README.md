@@ -90,6 +90,10 @@ The live link can be found here - https://hlomphosibeko.github.io/Safari-Knowled
 ### Content
 * The JS code used to group the questions, quesion images and answers is taken from [YouTube](https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw)
 * A tutor, Roman, advised that I don't replace radio button elements, but change values in the radio buttons.
+* Tom, a tutor, helped with overlapping images.
+* Roman, a tutor, helped with the looping of the game.
+* Sean, a tutor, help with the error referring to an undefined variable which was interrupting the flow of the game. 
+* To position my playground, I used a code from Love Maths.
 
 
 ### Media
