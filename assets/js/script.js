@@ -76,11 +76,12 @@ document.getElementById('answer-clue').addEventListener('change', function(event
         document.querySelector('.gameover-message').textContent = `You got ${correctCounter} correct and ${wrongCounter} wrong.`;
     }
 
+    //document.getElementById('gameover').
+
     document.getElementById('reload-btn').addEventListener('click', function() {
         location.reload();
     })
 
-    document.g
     startGame();
 });
 
