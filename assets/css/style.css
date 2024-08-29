@@ -109,8 +109,16 @@ h1 {
     cursor: pointer;
 }
 
+label {
+    padding: 0 5% 0 1%;
+}
+
 
 /* Score area */
+.points {
+    padding-top: 10px;
+}
+
 #correct {
     color: green;
     font-weight: bold;
@@ -178,18 +186,3 @@ h1 {
     }
 }
 
-@media (max-width: 768px) {
-    #question-container {
-        width: 80%;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 1280px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-}
