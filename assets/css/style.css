@@ -33,7 +33,7 @@ a {
 
 h1 {
     color: #d2691e;
-    font-size: 1.5em;
+    font-size: 1rem;
 }
 
 #get-started {
@@ -180,10 +180,16 @@ h1 {
 
 @media (max-width: 768px) {
     #question-container {
-        width: 100%;
+        width: 80%;
     }
 
     h1 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 2.5rem;
     }
 }
