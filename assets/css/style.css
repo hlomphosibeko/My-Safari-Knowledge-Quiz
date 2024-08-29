@@ -177,3 +177,13 @@ h1 {
         height: 70vh;
     }
 }
+
+@media (max-width: 768px) {
+    #question-container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
