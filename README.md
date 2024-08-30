@@ -48,6 +48,14 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 * Make the username visible when the user is playing again.
 
 ## Testing
+### Manual Testing
+* Before, one of my images was overlapping from the playground area. Please see image below:
+
+![alt text](image.png)
+
+* After carefully resizing the images, they all fit inside the playground. Please see image below:
+
+![alt text](image-1.png)
 
 ### Validator Testing
 
@@ -67,13 +75,28 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
     ![Error free HTML code](README.md%20docs/html-error-free.png)
 
 ##### CSS
-   - There appears to be no errors with CSS code. Please see below screen print:
+   - There appears to be no errors with CSS code.
+   - However, there are four warnings referring to the background color used for the username input area. Please see below:
+   
+   ![alt text](image-3.png)
+
+   - After changing the background color of username input area, the warnings disappeared. Please see screenprint:
+
+   ![alt text](image-4.png)
+    Please see below screen print:
     ![CSS without errors](README.md%20docs/css-no-errors.png)
 
 ##### JavaScript
-   - No errors were detected on the JavaScript code, only warnings. Please see below screenprints:
+   - No errors were detected on the JavaScript code, only 40 warnings.
+   - A variable on the code was unused which caused a warning.
+   - Undefined variables also caused a warning.
+   - Some areas in the code did not have semi colons. Please see below screenprints:
 
-   ![JavaScript warnings](README.md%20docs/js-warnings.png)    
+   ![JavaScript warnings](README.md%20docs/js-warnings.png)   
+
+   - There are only 18 warnings remaining, referring to the JavaScript variables and their syntax. Please see screen print below:
+
+   ![alt text](image-2.png) 
 
 ##### Lighthouse
 
@@ -104,6 +127,7 @@ The live link can be found here - https://hlomphosibeko.github.io/Safari-Knowled
 * Roman, a tutor, helped with the looping of the game.
 * Sean, a tutor, help with the error referring to an undefined variable which was interrupting the flow of the game. 
 * To position my playground, I used a code from Love Maths.
+* To test if my JavaScript code does not have any errors, I used [JSHint](https://jshint.com/)
 
 
 ### Media
