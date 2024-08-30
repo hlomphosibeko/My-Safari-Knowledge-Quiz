@@ -2,7 +2,7 @@
 
 When I think of animals, I think of a Safari or Outback. Animals can entertain people in so many ways. We got the zoo to see them, we read about them on the internet or books to learn more about them. Now would you say you know your animals? Safari Knowledge Quiz is created to test how well children, under the age of 5, know their animals. This game hopes to entertain children when they want to know more about their animals. 
 
-![Responsive screens](README.md-docs/amiresponsive-screens.png)
+![Responsive screens](README.md.docs/amiresponsive-screens.png)
 
 ## Features 
 
@@ -11,7 +11,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - A player is however not required to have their name inserted.
 - Once a name is inserted, a pop up will apear alerting the user to start playing the game. Please see image below:
 
-![Username](README.md-docs/username-alert.png)
+![Username](README.md.docs/username-alert.png)
 
 ### Playground
 - The playground shows a question and an image.
@@ -19,13 +19,13 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - I used a white background so the animal images can pop.
 - The image's role here is to help the player know which animal is being referred to. Please see below image:
 
-![Playground](README.md-docs/playground-screen.png)
+![Playground](README.md.docs/playground-screen.png)
 
 ### Answer Options Area
 - This feature is used to restrict a player from giving answers which are not in the game. Some questions have a number of ways to answer, so with the given options, a player will be limited.
 - It consists of radio buttons where a player will select the correct answer to win the game. Please see below image:
 
-![Answer options](README.md%20docs/answer-options.png)
+![Answer options](README.md.docsanswer-options.png)
 
 ### Score Area
 - Once the player has has submitted their answer, this feature will then show if the answer is correct or not.
@@ -33,7 +33,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - The wrong answer number will also increase everytime a player is wrong.
 - At the end of the game, a player will then see how they did. Please see image below:
 
-![score area](README.md%20docs/score-section.png)
+![score area](README.md.docs/score-section.png)
 
 ### Game Over and Reload Button
 - When a user has reached the end of the game, a GAME OVER screen will appear.
@@ -41,7 +41,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - The reload button appears same time with the GAME OVER screen.
 - Once a level has been completed, then the reload button will be clicked to restart the game.
 
-![Game over / Reload](README.md%20docs/gameover-reload-screen.png)
+![Game over / Reload](README.md.docs/gameover-reload-screen.png)
 
 ### Features Left to implement
 * Add more questions and animal images to the game to make it more interesting.
@@ -51,11 +51,11 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 ### Manual Testing
 * Before, one of my images was overlapping from the playground area. Please see image below:
 
-![Overlapping Image](README.md%20docs/overlapping-image.png)
+![Overlapping Image](README.md.docs/overlapping-image.png)
 
 * After carefully resizing the images, they all fit inside the playground. Please see image below:
 
-![No longer overlapping](README.md%20docs/no-overlap.png)
+![No longer overlapping](README.md.docs/no-overlap.png)
 
 ### Validator Testing
 
@@ -67,22 +67,22 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
       3. I did not add the alt attribute inside the img element.
       4. The value of the for attribute should be the same as the ID of the input element. Please see image below:
 
-    ![HTML error messages](README.md%20docs/html-errors.png)
+    ![HTML error messages](README.md.docs/html-errors.png)
 
     - After carefully reviewing the HTML code, there appears to be no more errors. [Validator W3 html](https://validator.w3.org/nu/#textarea)
     - Please see screenprint below:
 
-    ![Error free HTML code](README.md%20docs/html-error-free.png)
+    ![Error free HTML code](README.md.docs/html-error-free.png)
 
 ##### CSS
    - There appears to be no errors with CSS code. [Validator W3 css](https://jigsaw.w3.org/css-validator/validator)
    - However, there are four warnings referring to the background color used for the username input area. Please see below:
    
-   ![CSS Warnings](README.md%20docs/css-warnings.png)
+   ![CSS Warnings](README.md.docs/css-warnings.png)
 
    - After changing the background color of username input area, the warnings disappeared. Please see screenprint:
 
-   ![Warnings and errors free](README.md%20docs/warnings-free.png)
+   ![Warnings and errors free](README.md.docs/warnings-free.png)
     
 ##### JavaScript
    - No errors were detected on the JavaScript code, only 40 warnings.
@@ -90,12 +90,12 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
    - Undefined variables also caused a warning.
    - Some areas in the code did not have semi colons. Please see below screenprints:
 
-   ![JavaScript warnings](README.md%20docs/js-warnings.png)   
+   ![JavaScript warnings](README.md.docs/js-warnings.png)   
 
    - There are only 18 warnings remaining, referring to the JavaScript variables and their syntax. [JavaScript validator](https://jshint.com/)
    - Please see screen print below:
 
-   ![JavaScript variables warning](README.md%20docs/js-variables-warning.png) 
+   ![JavaScript variables warning](README.md.docs/js-variables-warning.png) 
 
 ##### Lighthouse
 
@@ -103,20 +103,20 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
    - Looks like images are large
    - If the size of the images is reduced, they are going to be too small. Please see image below:
 
-   ![Lighthouse result](README.md%20docs/lighthouse-result-1.png)
+   ![Lighthouse result](README.md.docs/lighthouse-result-1.png)
 
    - The size of the images was causing the errors.
    - Img elements did not include 'alt' attribute which was also causing the error. Please see screenprint below:
    
-   ![Render blocking resources](README.md%20docs/render-blocking-resources.png)
+   ![Render blocking resources](README.md.docs/render-blocking-resources.png)
    
    There appears to be no errors. Please see screen below:
 
-   ![Lighthouse final result](README.md%20docs/lighthouse-final-result.png)
+   ![Lighthouse final result](README.md.docs/lighthouse-final-result.png)
 
 #### Unresolved Bugs
 * The warnings referring to the JavaScript code are unresolved due to the version of site used to validate code.
-![JS warnings](README.md%20docs/Javascript-warnings-unresolved.png)
+![JS warnings](README.md.docs/Javascript-warnings-unresolved.png)
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
