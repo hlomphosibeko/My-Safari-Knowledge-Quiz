@@ -116,7 +116,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
 #### Unresolved Bugs
 * The warnings referring to the JavaScript code are unresolved due to the version of site used to validate code.
-![JS warnings](README.md.docs/Javascript-warnings-unresolved.png)
+<img src="README.md.docs/Javascript-warnings-unresolved.png">
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:

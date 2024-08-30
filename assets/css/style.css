@@ -64,7 +64,7 @@ h1 {
     border-color: #d2691e;
     box-shadow: 0 0 10px 2px;
     box-sizing: border-box;
-    width: 85%;
+    width: 70%;
     height: 65vh;
     max-height: 450px;
     max-width: 830px;
@@ -93,6 +93,7 @@ h1 {
     align-items: center;
     flex-wrap: nowrap;
     margin: auto;
+    width: 50%;
 }
 
 /* The radio buttons section */
@@ -110,7 +111,7 @@ h1 {
 }
 
 label {
-    padding: 0 5% 0 1%;
+    padding: 0 2% 0 0.5%;
 }
 
 

@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
             answerClue.appendChild(label);
     }
 }
+
 //This eventlistener will listen when the radio button is clicked.
 document.getElementById('answer-clue').addEventListener('change', function(event) {
     if (event.target.type === 'radio') {
@@ -60,7 +61,6 @@ document.getElementById('answer-clue').addEventListener('change', function(event
             alert(`Oops! You chose ${userChoice} which is not correct, the correct answer is ${correctAnswer}`);
             document.getElementById("wrong").textContent = ++wrongCounter;
         }
-
         currentQuestionIndex++;
         startGame();
     }  
@@ -80,7 +80,7 @@ document.getElementById('answer-clue').addEventListener('change', function(event
 
     document.getElementById('reload-btn').addEventListener('click', function() {
         location.reload();
-    })
+    });
 
     startGame();
 });
@@ -91,7 +91,7 @@ document.getElementById('answer-clue').addEventListener('change', function(event
  */
 const mySafariQuestions = [{
     safariQuestion: "What is the name of the below animal?",
-    safariQuizAnimals: '<img src="assets/images/bird.jpg">',
+    safariQuizAnimals: '<img src="assets/images/bird.jpg" alt="a flying bird">',
     Answer1: "bird",
     Answer2: "tiger",
     Answer3: "frog",
@@ -101,7 +101,7 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "Where does the below animal live?",
-    safariQuizAnimals: '<img src="assets/images/cheetah.jpg">',
+    safariQuizAnimals: '<img src="assets/images/cheetah.jpg" alt="a running cheetah">',
     Answer1: "in the ocean",
     Answer2: "at the zoo",
     Answer3: "space",
@@ -111,7 +111,7 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "What color is the below animal?",
-    safariQuizAnimals: '<img src="assets/images/crocodile.jpg">',
+    safariQuizAnimals: '<img src="assets/images/crocodile.jpg" alt="two crocodiles">',
     Answer1: "yellow",
     Answer2: "purple",
     Answer3: "brown",
@@ -121,7 +121,7 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "How many legs does this animal have?",
-    safariQuizAnimals: '<img src="assets/images/fish.jpg">',
+    safariQuizAnimals: '<img src="assets/images/fish.jpg" alt="a blue fish">',
     Answer1: "2 legs",
     Answer2: "4 legs",
     Answer3: "8 legs",
@@ -131,7 +131,7 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "Does this animal lay eggs?",
-    safariQuizAnimals: '<img src="assets/images/frog.jpg">',
+    safariQuizAnimals: '<img src="assets/images/frog.jpg" alt="a smiling frog">',
     Answer1: "no",
     Answer2: "only in summer",
     Answer3: "no idea",
@@ -141,7 +141,7 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "Is this animal fast or slow?",
-    safariQuizAnimals: '<img src="assets/images/tortoise.jpg">',
+    safariQuizAnimals: '<img src="assets/images/tortoise.jpg" alt="a brown tortoise">',
     Answer1: "it is slow",
     Answer2: "it is fast",
     Answer3: "it can't move",
@@ -151,7 +151,7 @@ const mySafariQuestions = [{
 },
 {
     safariQuestion: "How does this animal move?",
-    safariQuizAnimals: '<img src="assets/images/giraffe.jpg">',
+    safariQuizAnimals: '<img src="assets/images/giraffe.jpg" alt="a giraffe on a safari">',
     Answer1: "it walks",
     Answer2: "it hops",
     Answer3: "it swims",
