@@ -2,7 +2,7 @@
 
 When I think of animals, I think of a Safari or Outback. Animals can entertain people in so many ways. We got the zoo to see them, we read about them on the internet or books to learn more about them. Now would you say you know your animals? Safari Knowledge Quiz is created to test how well children, under the age of 5, know their animals. This game hopes to entertain children when they want to know more about their animals. 
 
-![Responsive screens](README.md%20docs/amiresponsive-screens.png)
+![Responsive screens](README.md-docs/amiresponsive-screens.png)
 
 ## Features 
 
@@ -11,7 +11,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - A player is however not required to have their name inserted.
 - Once a name is inserted, a pop up will apear alerting the user to start playing the game. Please see image below:
 
-![Username](README.md%20docs/username-alert.png)
+![Username](README.md-docs/username-alert.png)
 
 ### Playground
 - The playground shows a question and an image.
@@ -19,7 +19,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - I used a white background so the animal images can pop.
 - The image's role here is to help the player know which animal is being referred to. Please see below image:
 
-![Playground](README.md%20docs/playground-screen.png)
+![Playground](README.md-docs/playground-screen.png)
 
 ### Answer Options Area
 - This feature is used to restrict a player from giving answers which are not in the game. Some questions have a number of ways to answer, so with the given options, a player will be limited.
@@ -110,7 +110,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
    
    ![Render blocking resources](README.md%20docs/render-blocking-resources.png)
    
-    There appears to be no errors. Please see screen below:
+   There appears to be no errors. Please see screen below:
 
    ![Lighthouse final result](README.md%20docs/lighthouse-final-result.png)
 
