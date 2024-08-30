@@ -105,7 +105,14 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
    ![Lighthouse result](README.md%20docs/lighthouse-result-1.png)
 
-   ![Lighthouse Result](README.md%20docs/lighthouse-2.png)
+   - The size of the images was causing the errors.
+   - Img elements did not include 'alt' attribute which was also causing the error. Please see screenprint below:
+   
+   ![Render blocking resources](README.md%20docs/render-blocking-resources.png)
+   
+    There appears to be no errors. Please see screen below:
+
+   ![Lighthouse final result](README.md%20docs/lighthouse-final-result.png)
 
 #### Unresolved Bugs
 * The warnings referring to the JavaScript code are unresolved due to the version of site used to validate code.
