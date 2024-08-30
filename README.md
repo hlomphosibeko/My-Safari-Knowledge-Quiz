@@ -51,17 +51,16 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 ### Manual Testing
 * Before, one of my images was overlapping from the playground area. Please see image below:
 
-![alt text](image.png)
+![Overlapping Image](README.md%20docs/overlapping-image.png)
 
 * After carefully resizing the images, they all fit inside the playground. Please see image below:
 
-![alt text](image-1.png)
+![No longer overlapping](README.md%20docs/no-overlap.png)
 
 ### Validator Testing
 
 ##### HTML
 * Errors
-
     - Four errors were found on HTML.
     - 1. I did not include spaces between attributes. 
       2. Inside the username input element, I put two types of values in one input element.
@@ -70,22 +69,21 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
     ![HTML error messages](README.md%20docs/html-errors.png)
 
-    - After carefully reviewing the HTML code, there appears to be no more errors. Please see screenprint below:
+    - After carefully reviewing the HTML code, there appears to be no more errors. [Validator W3 html](https://validator.w3.org/nu/#textarea)
+    - Please see screenprint below:
 
     ![Error free HTML code](README.md%20docs/html-error-free.png)
 
 ##### CSS
-   - There appears to be no errors with CSS code.
+   - There appears to be no errors with CSS code. [Validator W3 css](https://jigsaw.w3.org/css-validator/validator)
    - However, there are four warnings referring to the background color used for the username input area. Please see below:
    
-   ![alt text](image-3.png)
+   ![CSS Warnings](README.md%20docs/css-warnings.png)
 
    - After changing the background color of username input area, the warnings disappeared. Please see screenprint:
 
-   ![alt text](image-4.png)
-    Please see below screen print:
-    ![CSS without errors](README.md%20docs/css-no-errors.png)
-
+   ![Warnings and errors free](README.md%20docs/warnings-free.png)
+    
 ##### JavaScript
    - No errors were detected on the JavaScript code, only 40 warnings.
    - A variable on the code was unused which caused a warning.
@@ -94,9 +92,10 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 
    ![JavaScript warnings](README.md%20docs/js-warnings.png)   
 
-   - There are only 18 warnings remaining, referring to the JavaScript variables and their syntax. Please see screen print below:
+   - There are only 18 warnings remaining, referring to the JavaScript variables and their syntax. [JavaScript validator](https://jshint.com/)
+   - Please see screen print below:
 
-   ![alt text](image-2.png) 
+   ![JavaScript variables warning](README.md%20docs/js-variables-warning.png) 
 
 ##### Lighthouse
 
@@ -107,6 +106,10 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
    ![Lighthouse result](README.md%20docs/lighthouse-result-1.png)
 
    ![Lighthouse Result](README.md%20docs/lighthouse-2.png)
+
+#### Unresolved Bugs
+* The warnings referring to the JavaScript code are unresolved due to the version of site used to validate code.
+![JS warnings](README.md%20docs/Javascript-warnings-unresolved.png)
 
 ## Deployment
 * This site was deployed to GitHub pages. The steps are as follows:
@@ -121,13 +124,15 @@ The live link can be found here - https://hlomphosibeko.github.io/Safari-Knowled
 
 ## Credits
 ### Content
-* The JS code used to group the questions, quesion images and answers is taken from [YouTube](https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw)
+* The JS code used to group the questions, question images and answers is taken from [YouTube](https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw)
 * A tutor, Roman, advised that I don't replace radio button elements, but change values in the radio buttons.
 * Tom, a tutor, helped with overlapping images.
 * Roman, a tutor, helped with the looping of the game.
 * Sean, a tutor, help with the error referring to an undefined variable which was interrupting the flow of the game. 
 * To position my playground, I used a code from Love Maths.
-* To test if my JavaScript code does not have any errors, I used [JSHint](https://jshint.com/)
+* For an overview of JavaScript and a better understanding of how a DOM functions, I used [Udemy](https://www.udemy.com/course/mega-web-development-course-fullstack-javascript-python-django-backend/learn/lecture/34745556#overview)
+* Looping on radio buttons and functionalities around the looping system, I used [W3Schools](https://www.w3schools.com/js/js_loop_for.asp)
+* How a multiple choice game is created, I used [Web-Dev-Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
 
 ### Media
