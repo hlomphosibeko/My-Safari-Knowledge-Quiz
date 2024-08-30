@@ -25,7 +25,7 @@ When I think of animals, I think of a Safari or Outback. Animals can entertain p
 - This feature is used to restrict a player from giving answers which are not in the game. Some questions have a number of ways to answer, so with the given options, a player will be limited.
 - It consists of radio buttons where a player will select the correct answer to win the game. Please see below image:
 
-![Answer options](README.md.docsanswer-options.png)
+![Answer options](README.md.docs/answer-options.png)
 
 ### Score Area
 - Once the player has has submitted their answer, this feature will then show if the answer is correct or not.
