@@ -136,7 +136,7 @@ The live link can be found here - https://hlomphosibeko.github.io/Safari-Knowled
 * Tom, a tutor, helped with overlapping images.
 * Roman, a tutor, helped with the looping of the game.
 * Sean, a tutor, help with the error referring to an undefined variable which was interrupting the flow of the game. 
-* To position my playground, I used a code from Love Maths.
+* To position my playground, I used a code from Love Maths Walkthrough Project conducted by Anna Greeves.
 * For an overview of JavaScript and a better understanding of how a DOM functions, I used [Udemy](https://www.udemy.com/course/mega-web-development-course-fullstack-javascript-python-django-backend/learn/lecture/34745556#overview)
 * Looping on radio buttons and functionalities around the looping system, I used [W3Schools](https://www.w3schools.com/js/js_loop_for.asp)
 * How a multiple choice game is created, I used [Web-Dev-Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
